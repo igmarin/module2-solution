@@ -1,12 +1,11 @@
 body {
   font-family: serif, "Times New Roman", Times;
-  margin: 0px;
 }
 
 .boxes {
   background-color: #d6dbe0;
   border: 1px solid #000;
-  margin: 5px;
+  margin: 10px;
   overflow: hidden;
 }
 
@@ -16,7 +15,6 @@ body {
 }
 
 .title {
-  border: 1px solid black;
   text-align: center;
   width: 25%;
   float: right;
@@ -29,7 +27,7 @@ body {
 
 @media (min-width: 768px) and (max-width: 991px) {
   .boxes {
-    width: 91%;
+    width: 93%;
     float: left;
   }
   .upper-box {
@@ -47,6 +45,5 @@ body {
 @media (max-width: 767px) {
   .boxes {
     width: 95%;
-    float: left;
   }
 }
