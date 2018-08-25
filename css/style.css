@@ -1,0 +1,46 @@
+body {
+ font-family: serif, "Times New Roman", Times;
+  margin: 0px;
+}
+.boxes {
+  background-color: #d6dbe0;
+  height: 250px;
+  margin: 5px;
+  border: 2px solid #000;
+  width: 95%;
+}
+
+.boxes h3 {
+  background-color: green;
+  height: 30px;
+  top: 0;
+  right: 0;
+}
+.boxes p {
+  clear: both;
+}
+
+
+@media only screen and (max-width: 767px) {
+  .boxes {
+  }
+}
+
+@media only screen and (min-width : 768px) and (max-width : 991px) {
+  #first-box {
+    width: 45%;
+  }
+  #second-box {
+    width: 45%;
+  }
+  #third-box {
+    width: 95%;
+    clear: both;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .boxes {
+    width: 30%;
+    float: left;
+}
