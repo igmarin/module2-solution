@@ -2,40 +2,39 @@ body {
   font-family: serif, "Times New Roman", Times;
   margin: 0px;
 }
+
 .boxes {
   background-color: #d6dbe0;
   border: 1px solid #000;
   margin: 5px;
+  overflow: hidden;
+}
+
+.boxes p {
+  margin: 5px;
+  clear: both;
 }
 
 .title {
-	border: 1px solid black;
-	text-align: center;
-	width: 25%;
+  border: 1px solid black;
+  text-align: center;
+  width: 25%;
   float: right;
 }
 
 .fish { background-color: #41cdf4; }
-
 .meat { background-color: #f4bf42; }
-
 .chicken { background-color: bisque; }
 
-.boxes p {
-  margin: 5px;
-	clear: both;
-}
 
-
-@media (min-width : 768px) and (max-width : 991px) {
-	.boxes {
-		width: 91%;
-		float:left;
-	}
+@media (min-width: 768px) and (max-width: 991px) {
+  .boxes {
+    width: 91%;
+    float: left;
+  }
   .upper-box {
     width: 45%;
-		float: left;
-	}
+  }
 }
 
 @media (min-width: 992px) {
@@ -48,8 +47,6 @@ body {
 @media (max-width: 767px) {
   .boxes {
     width: 95%;
-  }
-  .upper-box {
-    width: 95%;
+    float: left;
   }
 }
